@@ -1,0 +1,19 @@
+{
+  "name": "stylelint-examples",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "cssnano": "^3.3.1",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.1",
+    "postcss-reporter": "^1.2.1",
+    "stylelint": "^1.2.1"
+  }
+}

@@ -1,0 +1,52 @@
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body  {
+  background-color: #FFF;
+  color: #f;
+  font-size: 13.0px;
+}
+
+.overlay  {
+  opacity: .55555555555555;
+  top: 0px;
+}
+
+.transform  {
+  transform: translate(1 ,1);
+}
+
+.gradient {
+  background: linear-gradient(top, #ffffff, #000000 );
+}
+
+.scale  {
+  transform: translate(1, 1)scale(3);
+}
+
+.url  {
+  background-image: url("./img/img.png");
+}
+
+.background-size  {
+  background-size: 0
+    , 0;
+}
+
+.background { background-size: 0 ,0; }
+
+.text-rendering {
+  text-rendering: optimizeLegibility;
+}
+
+.prop-vendor-prefix {
+  -webkit-border-radius: 50%;
+}
+
+.custom-prop  {
+  --foo-bar: 10px;
+}
+
