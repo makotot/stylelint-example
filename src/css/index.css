@@ -47,6 +47,110 @@ body  {
 }
 
 .custom-prop  {
-  --foo-bar: 10px;
+  --hoge-bar: 10px;
 }
 
+.important {
+  display: block! important;
+}
+
+.semicolon  {
+  display : block ;float: left;
+}
+
+.colon  {
+  display:block;
+  float :left;
+  box-shadow: 0 0 0 1px #5b9dd9,
+    0 0 2px 1px rgba(30, 140, 190, 0.8);
+}
+
+a {
+  color: #cccccc; {
+    &:hover {
+      color: #eeeeee;
+    }
+  }
+}
+
+.block-1  {
+  display: block;
+}.block-2{display: block; }.block-3 {
+  display: block;}
+.block-4  { display: block;}
+.block-5{display: block;}
+
+.empty  {}
+
+.selector+.selector {
+  display: block;
+}
+
+input[type="text"]  {
+  font-size: 11px;
+}
+
+#foo  {
+  display: block;
+}
+
+a {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input::-moz-placeholder {
+}
+
+.after:after {
+  content: '';
+}
+
+html:root {
+  line-height: 1;
+}
+
+.list-a
+,.list-b {
+  display: block;
+}
+
+.list-c,.list-d  {
+  display: block;
+}
+
+@media  {
+  a {
+    display: block;
+  }
+}
+
+.rule-1 {
+  display: block;
+  display: block;
+  padding-bottom: 10px;
+  padding: 0;
+}
+.rule-2 {float: left; display: block}
+
+:root {
+  color: #000000;
+}
+
+@media (max-width :600px) {
+}
+
+@media (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media (max-width>=600px) {
+}
+
+@custom-media --hoge-bar (min-width: 30em);
+
+@media screen and (color),
+projection and ( color ) {
+}
