@@ -120,8 +120,25 @@ gulp.task('css', function () {
 
           // Media query
           "media-query-parentheses-space-inside": [2, "never"],// メディアクエリの括弧の内側にスペースを必須にするか許可しないかを統一すること / option: "always" | "never"
+
           // Media query list
-          "media-query-list-comma-newline-after": [2, "never-multi-line"]// メディアクエリのリストで、カンマの直後に改行を必須にするかスペースを許可しないか統一すること / option: "always"|"always-multi-line"|"never-multi-line"
+          "media-query-list-comma-newline-after": [2, "never-multi-line"],// メディアクエリのリストで、カンマの直後に改行を必須にするかスペースを許可しないか統一すること / option: "always"|"always-multi-line"|"never-multi-line"
+          "media-query-list-comma-newline-before": [2, "never-multi-line"],// メディアクエリのリストで、カンマの直前に改行を必須にするか、スペースを許可しないか統一すること / option: "always"|"always-multi-line"|"never-multi-line"
+          "media-query-list-comma-space-after": [2, "always-single-line"],// メディアクエリのリストで、カンマの直後にスペースを必須にするか否かを統一すること / option: "always"|"never"|"always-single-line"|"never-single-line"
+          "media-query-list-comma-space-before": [2, "never"],// メディアクエリのリストで、カンマの直前にスペースを必須にするか否かを統一すること / option: "always"|"never"|"always-single-line"|"never-single-line"
+
+          // At rule
+          "at-rule-empty-line-before": [2, "always"],// @ルールの前に1行空けることを必須にするか否かを統一すること / option: "always" | "never"
+          "at-rule-no-vendor-prefix": [2],// @ルールにベンダープレフィックスを許可しない
+
+          // Comment
+          "comment-empty-line-before": [2, "always"],// コメントの前に1行空けることを必須にするか否かを統一すること / option: "always" | "never"
+          "comment-space-inside": [2, "always"],// コメントマークの内側にスペースを必須にするか許可しないかを統一すること / option: "always" | "never"
+          // General / Sheet
+          "indentation": [2, 2],// インデントを指定すること / option: int | "tab"
+          "no-eol-whitespace": [2],// 行末のスペースを許可しないこと
+          "no-missing-eof-newline": [2],// ファイルの最終行に空白行を必須にすること
+          "no-multiple-empty-lines": [2]// 連続した空白行を許可しないこと
         }
       }),
       require('postcss-reporter')({

@@ -151,6 +151,40 @@ html:root {
 
 @custom-media --hoge-bar (min-width: 30em);
 
-@media screen and (color),
+@media screen and (color)
+,
 projection and ( color ) {
 }
+
+@media screen and (color) ,projection and ( color ) {}
+@media {}
+
+@-webkit-keyframes  {
+}
+/*comment*/
+
+.general {
+          display: block;                                       
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a { color: pink; }    
