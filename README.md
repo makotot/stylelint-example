@@ -11,6 +11,8 @@
 |                   | `number-zero-length-no-unit`                        | 値が0の場合に単位をつけない                                                       |                                                               |
 | Function          | `function-calc-no-unspaced-operator`                | 関数calcの中でスペースなしの式を許可しない                                        |                                                               |
 |                   | `function-comma-space-after`                        | 関数の中でカンマの直後にスペースを空けることを許可するか否か                      | string : "always" &#124; "never"                              |
+|                   | `function-comma-newline-after`                      | 関数の中でカンマの直後に改行を必須にするかスペースを許可しないか                  | string : "always" &#124; "always-multi-line" &#124; "never-multi-line"  |
+|                   | `function-comma-newline-before`                      | 関数の中でカンマの直前に改行を必須にするかスペースを許可しないか                  | string : "always" &#124; "always-multi-line" &#124; "never-multi-line"  |
 |                   | `function-comma-space-before`                       | 関数の中でカンマの直前にスペースを空けることを許可するか否か                      | string : "always" &#124; "never"                              |
 |                   | `function-linear-gradient-no-nonstandard-direction` | `linear-gradient`の仕様に沿ってない方角の値を許可しない                           |                                                               |
 |                   | `function-parentheses-space-inside`                 | 関数の()の内側にスペースを許可しないか否か                                        | string : "always" &#124; "never"                              |

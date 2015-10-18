@@ -9,6 +9,8 @@
     "number-no-trailing-zeros": [2],
     "number-zero-length-no-unit": [2],
     "function-calc-no-unspaced-operator": [2],
+    "function-comma-newline-after": [2, "never-multi-line"],
+    "function-comma-newline-before": [2, "never-multi-line"],
     "function-comma-space-after": [2, "always"],
     "function-comma-space-before": [2, "never"],
     "function-linear-gradient-no-nonstandard-direction": [2],
